@@ -1,0 +1,7 @@
+# The Wi-Fi Security Auditor core uses only the Python standard library (3.9+).
+# Tkinter (for the GUI) ships with the official Python installer on Windows and macOS;
+# on Linux install it with your package manager, e.g.  sudo apt install python3-tk
+#
+# Optional, not installed via pip:
+#   hashcat   - for a MEASURED crack-rate on your machine (https://hashcat.net/hashcat/)
+#   rockyou.txt (SecLists) - for the full leaked-password check (--wordlist)
